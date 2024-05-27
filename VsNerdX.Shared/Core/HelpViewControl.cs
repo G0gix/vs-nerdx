@@ -95,6 +95,7 @@ namespace VsNerdX.Core
                 new Bold(new Run(" Node editing mappings")), new LineBreak(),
                 new Run("--------------------------"), new LineBreak(),
                 new Bold(new Run(" dd")), new Run(": delete"), new LineBreak(),
+                new Bold(new Run(" a")), new Run(": add file"), new LineBreak(),
                 new Bold(new Run(" cc")), new Run(": cut"), new LineBreak(),
                 new Bold(new Run(" yy")), new Run(": copy"), new LineBreak(),
                 new Bold(new Run(" yp")), new Run(": copy full path"), new LineBreak(),
