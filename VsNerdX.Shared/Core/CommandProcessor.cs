@@ -91,6 +91,7 @@ namespace VsNerdX.Core
             commands.Add(new CommandKey(InputMode.Normal, Keys.I | Keys.Shift), new ShowAllFiles(this._hierarchyControl));
 
             commands.Add(new CommandKey(InputMode.Normal, Keys.D), new Delete(this._hierarchyControl));
+            commands.Add(new CommandKey(InputMode.Normal, Keys.A), new AddFile(this._hierarchyControl));
             commands.Add(new CommandKey(InputMode.Normal, Keys.C), new CutFile(this._hierarchyControl));
             commands.Add(new CommandKey(InputMode.Normal, Keys.P), new Paste(this._hierarchyControl));
             commands.Add(new CommandKey(InputMode.Normal, Keys.R), new Rename(this._hierarchyControl));
@@ -105,6 +106,5 @@ namespace VsNerdX.Core
             commands.Add(new CommandKey(InputMode.Normal, Keys.Oem2 | Keys.Shift), new ToggleHelp(this._hierarchyControl));
             commands.Add(new CommandKey(InputMode.Find, Keys.Escape), new LeaveFindMode());
         }
-
     }
 }
